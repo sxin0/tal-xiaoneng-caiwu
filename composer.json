@@ -1,0 +1,30 @@
+{
+  "name": "sxin/tal-xiaoneng-caiwu",
+  "description": "通用工具库",
+  "type": "library",
+  "version": "1.0.0",
+  "keywords": [
+    "预警服务",
+    "任务队列",
+    "TPS限流"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "sxin",
+      "email": "1348550820@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "laravel/framework": "^8.83"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "Sxin\\TAL\\": "src/"
+    }
+  }
+}
