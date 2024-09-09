@@ -14,5 +14,7 @@
 ## DEMO
 
 ```php
+/*Math*/
 echo Math::bcadd(1, 1, 2);
+echo Math::bcsub(1, 1, 2);
 ```
